@@ -1,0 +1,43 @@
+/* hero banner */
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+.hero-img{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/hero-bg.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+.hero-btn {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*
+.hero-btn{
+  position:absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-70%, -50%);
+}
+
+*/

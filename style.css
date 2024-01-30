@@ -80,5 +80,35 @@ html, body{
 /* inscrições */
 
 .inscrições{
+  background-color: gray;
+  margin-top: 0.5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+}
 
+.inscrições-1{
+  font-size: xx-large;
+  display: flex;
+  margin-bottom: 1rem;
+  max-width: 100vw;
+}
+.inscrições-titulo{
+  color: orange;
+}
+.abertura{
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}
+.inscrições-logo{
+  align-self: flex-end;
+  width: 25%;
+  flex-shrink: 0;
+}
+.observação{
+  padding-top: 1rem;
+  color: orange;
+  font-weight: bold;
+  font-size: x-large;
 }

@@ -13,8 +13,8 @@ html, body{
 }
 
 .hero-img{
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/hero-bg.png");
-  height: 50%;
+  background-image: url("./assets/hero-banner.webp");
+  height: 80%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,9 +42,16 @@ html, body{
   font-weight: bold;
   padding: 1rem;
   border: none;
-  border-radius: 2rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  border-radius: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  transition: 0.5s;
+}
+
+.hero-btn:hover{
+  color: white;
+  background-color: black;
+
 }
 /*
 .hero-btn{
@@ -108,6 +115,39 @@ html, body{
 }
 .observação{
   padding-top: 1rem;
+  color: orange;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+
+/* video */
+
+.video-section{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./assets/video-bg.webp");
+}
+
+.container-video{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+
+}
+
+.video{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.video-text{
+  margin-bottom: 1rem;
+  align-self: center;
+  justify-content: center;
   color: orange;
   font-weight: bold;
   font-size: x-large;
